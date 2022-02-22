@@ -1,0 +1,7 @@
+<form [formGroup]="userData">
+    <div>
+        <input type="text" formControlName="firstName">
+        <input type="text" formControlName="lastName">
+    </div>
+    <button (click)="addUserInfo()">Add User</button>
+</form>
